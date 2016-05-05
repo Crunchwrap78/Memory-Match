@@ -9,22 +9,60 @@
 .box2,p{
   display: block;
   background-color: #000;
-  height: 60px;
+  height: 90px;
   width: 500px;
   margin: 10px auto;
   padding-top: 10px;
 }
 h1{
-  font-family: Verdana;
+  font-family: fantasy;
+  text-shadow: 2px 2px #ff0000;
   font-size: 50px;
   text-align: center;
   color: #fff;
 
 }
+.hard{
+  text-align: center;
+  font-size: 40px;
+  font-family:fantasy;
+  text-shadow: 2px 2px #ff0000;
+  margin: 10px auto;
+  height: 30px;
+  width: 150px;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 20px
+}
+.easy{
+  text-align: center;
+  font-size: 40px;
+  font-family:fantasy;
+  text-shadow: 2px 2px #ff0000;
+  margin: 10px auto;
+  height: 30px;
+  width: 150px;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 20px
+}
+.medium{
+  text-align: center;
+  font-size: 40px;
+  font-family:fantasy;
+  text-shadow: 2px 2px #ff0000;
+  margin: 10px auto;
+  height: 30px;
+  width: 150px;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 20px
+}
 
 a{
   display: block;
-  font-family: Verdana;
+  font-family: fantasy;
+  text-shadow: 2px 2px #ff0000;
   text-decoration: none;
   font-weight: bold;
   font-size: 30px;
@@ -37,6 +75,7 @@ body{
 }
 
 div#gamePlace{
+
 	background: url(http://previews.123rf.com/images/jirkaejc/jirkaejc1009/jirkaejc100900037/7792397-the-checkered-tablecloth-on-wooden-table-Stock-Photo-table-picnic-cloth.jpg);
 	border:#000 5px solid;
   outline-style: double;
@@ -48,9 +87,8 @@ div#gamePlace{
 }
 
 .card {
-  background-image: url(http://www.clipartbest.com/cliparts/xcg/KK4/xcgKK4qki.jpeg);
+  background: url(http://www.clipartbest.com/cliparts/xcg/KK4/xcgKK4qki.jpeg) no-repeat;
   background-size: 170px;
-  background-repeat: no-repeat;
   padding: 10px;
   float: left;
   margin: 10px;
@@ -63,11 +101,14 @@ div#gamePlace{
 img {
   width: 150px;
   height: 150px;
+  float: left;
   border-radius: 25px;
   margin: 0px auto;
 }
+
 p{
-  font-family:Verdana;
+  font-family:fantasy;
+  text-shadow: 2px 2px #ff0000;
   font-size: 30px;
   text-align: center;
   color: #fff;
